@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <img class="clk" src="./clock project images/3.png" alt="">
+    
+    <div class="one" id="hello">
+        <img class="one1" src="./clock project images/6.png" alt="">
+        <span class="line1"></span>
+        <img class="one2" src="./clock project images/4.png" alt="">
+        <span class="line2"></span>
+        <img class="one3" src="./clock project images/5.png" alt="">
+        <p class="text1">set wake up time</p>
+        <p class="text2">set lunch time</p>
+        <p class="text3">set nap time</p>
+        <form action="" onchange="change()">
+            <select class="box"  name="timings" id="timings">
+                <option value="default">default</option>
+                <option value="1AM-2AM">1AM-2AM</option>
+                <option value="2AM-3AM">2AM-3AM</option>
+                <option value="3AM-4AM">3AM-4AM</option>
+                <option value="4AM-5AM">4AM-5AM</option>
+                <option value="5AM-6AM">5AM-6AM</option>
+                <option value="6AM-7AM">6AM-7AM</option>
+                <option value="7AM-8AM">7AM-8AM</option>
+                <option value="8AM-9AM">8AM-9AM</option>
+                <option value="9AM-10AM">9AM-10AM</option>
+                <option value="10AM-11AM">10AM-11AM</option>
+                <option value="11AM-12PM">11AM-12PM</option>
+                <option value="12AM-13PM">12AM-13PM</option>
+                <option value="13PM-14PM">13PM-14PM</option>
+                <option value="14PM-15PM">14PM-15PM</option>
+                <option value="15PM-16PM">15PM-16PM</option>
+                <option value="16PM-17PM">16PM-17PM</option>
+                <option value="17PM-18PM">17PM-18PM</option>
+                <option value="18PM-19PM">18PM-19PM</option>
+                <option value="19PM-20PM">19PM-20PM</option>
+                <option value="20PM-21PM">20PM-21PM</option>
+                <option value="21PM-22PM">21PM-22PM</option>
+                <option value="22PM-23PM">22PM-23PM</option>
+                <option value="23PM-0AM">23PM-0PM</option>
+                <option value="0AM-1AM">0AM-12PM</option>
+                
+               
+            </select>
+        </form>
+        <form action="">
+            <select class="box2" name="timings2" id="timings2">
+                <option value="default">default</option>
+                <option value="1AM-2AM">1AM-2AM</option>
+                <option value="2AM-3AM">2AM-3AM</option>
+                <option value="3AM-4AM">3AM-4AM</option>
+                <option value="4AM-5AM">4AM-5AM</option>
+                <option value="5AM-6AM">5AM-6AM</option>
+                <option value="6AM-7AM">6AM-7AM</option>
+                <option value="7AM-8AM">7AM-8AM</option>
+                <option value="8AM-9AM">8AM-9AM</option>
+                <option value="9AM-10AM">9AM-10AM</option>
+                <option value="10AM-11AM">10AM-11AM</option>
+                <option value="11AM-12PM">11AM-12PM</option>
+                <option value="12AM-13PM">12AM-13PM</option>
+                <option value="13PM-14PM">13PM-14PM</option>
+                <option value="14PM-15PM">14PM-15PM</option>
+                <option value="15PM-16PM">15PM-16PM</option>
+                <option value="16PM-17PM">16PM-17PM</option>
+                <option value="17PM-18PM">17PM-18PM</option>
+                <option value="18PM-19PM">18PM-19PM</option>
+                <option value="19PM-20PM">19PM-20PM</option>
+                <option value="20PM-21PM">20PM-21PM</option>
+                <option value="21PM-22PM">21PM-22PM</option>
+                <option value="22PM-23PM">22PM-23PM</option>
+                <option value="23PM-0AM">23PM-0PM</option>
+                <option value="0AM-1AM">0AM-12PM</option>
+               
+             
+                
+               
+            </select>
+
+        </form>
+        <form action="">
+            <select class="box3" name="timings3" id="timings3">
+                <option value="default">default</option>
+                <option value="1AM-2AM">1AM-2AM</option>
+                <option value="2AM-3AM">2AM-3AM</option>
+                <option value="3AM-4AM">3AM-4AM</option>
+                <option value="4AM-5AM">4AM-5AM</option>
+                <option value="5AM-6AM">5AM-6AM</option>
+                <option value="6AM-7AM">6AM-7AM</option>
+                <option value="7AM-8AM">7AM-8AM</option>
+                <option value="8AM-9AM">8AM-9AM</option>
+                <option value="9AM-10AM">9AM-10AM</option>
+                <option value="10AM-11AM">10AM-11AM</option>
+                <option value="11AM-12PM">11AM-12PM</option>
+                <option value="12AM-13PM">12AM-13PM</option>
+                <option value="13PM-14PM">13PM-14PM</option>
+                <option value="14PM-15PM">14PM-15PM</option>
+                <option value="15PM-16PM">15PM-16PM</option>
+                <option value="16PM-17PM">16PM-17PM</option>
+                <option value="17PM-18PM">17PM-18PM</option>
+                <option value="18PM-19PM">18PM-19PM</option>
+                <option value="19PM-20PM">19PM-20PM</option>
+                <option value="20PM-21PM">20PM-21PM</option>
+                <option value="21PM-22PM">21PM-22PM</option>
+                <option value="22PM-23PM">22PM-23PM</option>
+                <option value="23PM-0AM">23PM-0PM</option>
+                <option value="0AM-1AM">0AM-12PM</option>
+               
+            </select>
+
+        </form>
+        
+        
+    </div>
+
+    <button class="h0" onclick="hii()" > <p class="b" >Set Time!</p> </button> 
+    <div id="a1">
+        <p id="a6"></p>
+        <p id=a3></p>
+        <p id="a7"></p>
+        
+    </div>
+
+    <div class="four">
+        <div class="four1"></div>
+        <div class="four2"></div>
+        <span class="time">TIME</span>
+        <img class="pic1" src="./clock project images/1.png" alt="">
+        <img class="pic2" src="./clock project images/1.png" alt="">
+        <img class="pic3" src="./clock project images/1.png" alt="">        
+        <img class="pic4" src="./clock project images/2.png" alt="">
+        
+        <div>
+            <div id="hours" class="hours"></div>
+            <span class="heading">hours</span>
+            <div>
+                <span class="colon">:</span>
+            </div>
+        </div>
+        <div>
+            <div id="min" class="min"></div>
+            <span class="heading2">min</span>
+            <div>
+                <span class="colon1">:</span>
+            </div>
+        </div>
+        
+        <div>
+            <div id="sec" class="sec"></div>
+            <span class="heading3">sec</span>
+            
+        </div>
+        <div id="amorpm" class="amorpm"></div>
+    
+    </div>
+    
+    <div class="five">
+        <div id="five1"></div>
+        <img id="picnic" src="./clock project images/" alt="" srcset="">
+      
+    </div> 
+    <script src="./index.js"></script>
+
+    
+
+</body>
+</html>

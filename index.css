@@ -1,0 +1,403 @@
+body{
+    background-color:#3D087B;
+
+}
+.clk{
+    position: relative;
+    left: 95px;
+    top: 22px;
+    width: 197px;
+}
+
+.one{
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid #EDEDED;
+    width: 447px;
+    height: 228px;
+    position: relative;
+    top: 122px;
+    left: 108px;
+}
+.one1{
+    
+    margin-top: 13px;
+    margin-left: 15px;
+    width: 30px;
+}
+.line1{
+    border: 1px solid #C2C2C2;
+    font-size: 26px;
+    position: relative;
+    top: 19px;
+    right: 10px;
+}
+.text1{
+    position: relative;
+    color: #3D087B;
+    font-size: 19px;
+    bottom: 52px;
+    left: 69px;
+}
+.one2{
+    position: relative;
+    top: 84px;
+    right: 36px;
+    width: 30px;
+
+}
+.line2{
+    border: 1px solid #C2C2C2;
+    font-size: 26px;
+    position: relative;
+    top: 61px;
+    right: 28px;
+}
+.text2{
+    position: relative;
+    color: #3D087B;
+    top: 0px;
+    left: 66px;
+    font-size: 19px;
+}
+
+.one3{
+    position: relative;
+    top: 175px;
+    right: 64px;
+    width: 30px;
+
+}
+.text3{
+    position: relative;
+    color: #3D087B;
+    left: 69px;
+    top: 43px;
+    font-size: 19px;
+}
+.box{
+    position: relative;
+    border: 2px solid #EDEDED;
+    border-radius: 1px;
+    background-color:#FFFFFF;
+    color: #3D087BDE;
+    bottom: 177px;
+    left: 243px;
+    height: 31px;
+    width: 181px;
+    text-align: left;
+}
+.box2{
+    border: 2px solid #EDEDED;
+    border-radius: 1px;
+    background-color:#FFFFFF;
+    color: #3D087BDE;
+    bottom: 122px;
+    left: 243px;
+    height: 31px;
+    width: 181px;
+    text-align: left;
+    position: relative;
+
+}
+.box3{
+    border: 2px solid #EDEDED;
+    border-radius: 1px;
+    background-color:#FFFFFF;
+    color: #3D087BDE;
+    bottom: 63px;
+    position: relative;
+    left: 243px;
+    height: 31px;
+    width: 181px;
+    text-align: left;
+
+}
+
+/* .two{
+    border-radius: 10px;
+    border:2px solid #EDEDED;
+    width: 445px;
+    height: 70px;
+    background-color: #5F0089;
+    position: relative;
+    top: 135px;
+    left: 108px;
+} */
+.a{
+    position: relative;
+    color: #FFFFFF;
+    font-size: xx-large;
+    font-family: cursive;
+    left: 31px;
+    bottom: 18px;
+}
+/* .three{
+    border: 2px solid white;
+    border-radius: 11px;
+    width: 268px;
+    height: 55px;
+    left: 108px;
+    position: relative;
+    top: 148px;
+    background-image: linear-gradient(to left,#FC5EFF,#8A11BF);
+
+
+} */
+
+.b{
+    color: white;
+    position: relative;
+    font-family:monospace;
+    right: 5px;
+    font-size: xx-large;
+    bottom: 11px;
+    /* background-image: linear-gradient(to left,#FC5EFF,#8A11BF); */
+    /* font-weight: 300px; */
+
+}
+.h0{
+    position: relative;
+    color: black;
+    left: 146px;
+    width: 282px;
+    height: 62px;
+    top: 200px;
+    background-image: linear-gradient(to left,#FC5EFF,#8A11BF);
+}
+.a2{
+    position: relative;
+    border: 3px solid #8A11BF;
+    border-radius: 17px;
+    width: 400px;
+    height: 223px;
+    background-color: #8A11BF;
+    top: 235px;
+    left: 106px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    
+}
+.four{
+    border-radius: 9px;
+    border: 2px solid #EDEDED;
+    background-color: white;
+    position: relative;
+    bottom: 365px;
+    left: 612px;
+    width: 448px;
+    height: 107px;
+    
+}
+.time{
+    position: relative;
+    color: #3D087B;
+    font-size: larger;
+    bottom: 222px;
+    left: 30px;
+}
+.pic1{
+    position: relative;
+    bottom: 191px;
+    width: 64px;
+    left: 57px;
+    height: 72px;
+}
+.ten{
+    color: #8A11BF;
+    font-size:xx-large;
+    position: relative;
+    left: 133px;
+    bottom: 240px;
+    
+}
+.pic2{
+    position: relative;
+    bottom: 191px;
+    width: 64px;
+    left: 71px;
+    height: 72px;
+
+}
+.pic3{
+    position: relative;
+    bottom: 191px;
+    width: 64px;
+    left: 88px;
+    height: 72px;
+
+}
+.pic4{
+   
+    position: relative;
+    bottom: 192px;
+    width: 64px;
+    left: 105px;
+    height: 72px;
+
+}
+.five{
+    border: 2px solid#EDEDED;
+    background-color: white;
+    position: relative;
+    bottom: 295px;
+    width: 475px;
+    height: 401px;
+    left: 611px;
+    border-radius: 7px;
+}
+.five1{
+    color: #8E53F0;
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    left: 12px;
+
+}
+.four1{
+    border: 2px solid silver;
+    border-radius: 7px;
+    position: relative;
+    left: 28px;
+    z-index: -1;
+    top: 14px;
+    height: 100px;
+    background-color: silver;
+    width: 396px;
+}
+.four2{
+    border: 2px solid purple;
+    border-radius: 7px;
+    position: relative;
+    left: 48px;
+    z-index: -2;
+    top: -81px;
+    height: 100px;
+    background-color:purple;
+    width: 356px;
+    
+}
+
+.picnic{
+    position: relative;
+    right: 3px;
+    bottom: 102px;
+    width: 480px;
+
+}
+.a5{
+    color: white;
+    position: relative;
+    right: 23px;
+    top: 20px;
+    font-size: larger;
+    
+
+}
+
+.a4{
+    color: white;
+    position: relative;
+    right: 34px;
+    top: 27px;
+    font-size: larger;
+}
+.a8{
+    color: white;
+    position: relative;
+    right: 34px;
+    top: 31px;
+    font-size: larger;
+
+}
+
+
+
+.hours{
+    color: blue;
+    position: relative;
+    left: 134px;
+    bottom: 252px;
+    font-size: 23px;
+}
+
+.heading{
+    color: blue;
+    position: relative;
+    left: 118px;
+    bottom: 252px;
+    font-size: 20px;
+}
+.colon{
+    color: purple;
+    position: relative;
+    left: 177px;
+    bottom: 299px;
+    font-size: 30px;
+}
+.min{
+    color: blue;
+    position: relative;
+    left: 214px;
+    bottom: 335px;
+    font-size: 25px;
+}
+.heading2{
+    color: blue;
+    position: relative;
+    left: 208px;
+    bottom: 334px;
+    font-size: 21px;
+}
+.colon1{
+    position: relative;
+    color: blueviolet;
+    left: 261px;
+    bottom: 388px;
+    font-size: 31px;
+}
+.sec{
+    color: blue;
+    position: relative;
+    left: 294px;
+    bottom: 422px;
+    font-size: 23px;
+}
+.heading3{
+    position: relative;
+    color: blue;
+    left: 292px;
+    bottom: 422px;
+    font-size: 22px;
+
+}
+.amorpm{
+    color: blue;
+    position: relative;
+    left: 375px;
+    bottom: 478px;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
