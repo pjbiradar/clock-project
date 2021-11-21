@@ -1,8 +1,3 @@
-let t=""
-let t1=""
-let t2=""
-let t3=""
-
 const timer=()=>{
   let date=new Date();
   let hh=date.getHours();
@@ -19,132 +14,112 @@ const timer=()=>{
     hh=12;
     
   }
-  console.log(hh);
-  console.log(min);
-  console.log(sec);
+ 
   document.getElementById("hours").innerHTML=hh;
   
   document.getElementById("min").innerHTML=min;
   document.getElementById("sec").innerHTML=sec+1;
   document.getElementById("amorpm").innerHTML=x;
 
- const store1=document.getElementById("amorpm")
- const element= document.getElementById("hours")
+//  const store1=document.getElementById("amorpm")
+//  const element= document.getElementById("hours")
+//  const wish=document.getElementById("ele");
 
-  switch(true)
-  {
-  case(t.includes(element)&&t.includes(store1)):
-  const g=document.getElementById("picnic");
-  g.src="wakeup.png"
-  const say=document.getElementById("five1")
-  say.innerText="lets have some breakfast"
-  break;
-  case(t1.includes(element)&&t1.includes(store1)):
-  const g1=document.getElementById("picnic");
-  g1.src="lunch.png"
-  const say1=document.getElementById("five1")
-  say1.innerText="lets have some lunch"
-  break;
-  case(t2.includes(element)&&t2.includes(store1)):
-  const g2=document.getElementById("picnic");
-  g2.src="night.png"
-  const say2=document.getElementById("five1")
-  say2.innerText="lets have supper"
-  break;
-  default:
-  const g3=document.getElementById("picnic");
-  g3.src="default image"
-  const say3=document.getElementById("five1")
-  say3.innerText="Hii buddy,Hope ur doing well :)"
-  break;
+
+  if(timings.value.slice[0,4]==hh && timings.value.slice[0,4]==amorpm){
+    var g=document.getElementById("picnic");
+    g.src="wakeup.png";
+    
+
+    var say=document.getElementById("five1")
+    say.innerText="lets have some breakfast"
+    var g1=document.getElementById("five1");
+    g1.appendChild(g);
+  }
+  else if(timings2.value==hh && timings2.value==amorpm){
+    var r=document.getElementById("picnic");
+    r.src="lunch.png";
+
+    var say=document.getElementById("five1")
+    say.innerText="lets have some lunch"
+    var r1=document.getElementById("five1");
+    r1.appendChild(r);
+  }
+  else if (timings3.value==hh && timings3.value==amorpm){
+    var e=document.getElementById("picnic");
+    e.src="night.png";
+
+    var say=document.getElementById("five1")
+    say.innerText="lets have some lunch"
+    var e1=document.getElementById("five1");
+    e1.appendChild(e);
 
   }
-  
+  else{
+      const g3=document.getElementById("picnic");
+      const say3=document.getElementById("five1")
+      say3.innerText="Hii buddy,Hope ur doing well :)"
+
+  }
   
 }
 setInterval(timer,1000);
 
 
-let child=hii();
 
-function hii ()
+const hii=()=>
 {
-  let key=document.createElement("div");
-  key.setAttribute("id","key1");
-  key.style.height="110px";
-  key.style.width="250px";
-  key.style.backgroundColor="blue";
-  key.style.borderRadius="7px";
-  key.style.position="absolute";
-  key.style.bottom="20px";
-  key.style.left="160px";
+  const e=document.getElementById("a1");
+  e.setAttribute("class","a2");
+  console.log(e);
 
-  let morning=document.createElement("p");
-  morning.setAttribute("id", "morning");
-  morning.style.fontSize = "18px";
-  morning.style.color = "white";
-  morning.style.marginTop = "10px";
-  morning.style.marginLeft = "15px";
+  const c1=document.getElementById("a6");
+  c1.setAttribute("class","a5");
 
-  let after=document.createElement("p");
-  after.setAttribute("id", "after");
-  after.style.fontSize = "18px";
-  after.style.color = "white";
-  after.style.marginTop = "10px";
-  after.style.marginLeft = "15px";
+  const c2=document.getElementById("a3");
+  c2.setAttribute("class","a4");
 
-  let night=document.createElement("p");
-  night.setAttribute("id", "night");
-  night.style.fontSize = "18px";
-  night.style.color = "white";
-  night.style.marginTop = "10px";
-  night.style.marginLeft = "15px";
-  return function change()
+  const c3=document.getElementById("a7");
+  c3.setAttribute("class","a8");
+
+  const change=()=>
   {
-    let z=document.getElementById("whole").appendChild(key)
-    console.log(z);
-    let j = document.getElementById("timings").value
-    morning.innerText = "Wake up : " + j
-    document.getElementById("key").appendChild(morning)
+    
+    const d=document.getElementById("timings").value;
+    console.log(d);
+    if(d=="")
+    {
 
-    let j1 = document.getElementById("timings2").value
-    after.innerText = "Lunch : " + j1
-    document.getElementById("key").appendChild(after)
+    }
+    else{
+      document.getElementById("a6").innerText="wake up time:"+d;
+    }
+    
+    
 
-    let j3 = document.getElementById("timings3").value
-    night.innerText = "Nap : " + j3
-    document.getElementById("key").appendChild(night)
+    const d1=document.getElementById("timings2").value;
+    console.log(d1);
+    if(d1=="")
+    {
 
-    t = (document.getElementById("timings").value).slice(0, 4)
-    t1 = (document.getElementById("timings2").value).slice(0, 4)
-    t2 = (document.getElementById("timings3").value).slice(0, 4)
+    }
+    else{
+      document.getElementById("a3").innerText="lunch time:"+d1;
+    }
+    
+    const d2=document.getElementById("timings3").value;
+    console.log(d2);
+    if(d2=="")
+    {
+
+    }
+    else
+    {
+      document.getElementById("a7").innerText="dinner time:"+d2;
+    }
   }
+  change()
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
