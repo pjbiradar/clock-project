@@ -65,6 +65,7 @@ const timer=()=>{
   }
   else{
       const g3=document.getElementById("picnic");
+      g3.src="noo.jpg";
       const say3=document.getElementById("five1")
       say3.innerText="Hii buddy,Hope ur doing well :)"
       say3.style.fontSize="30px";
