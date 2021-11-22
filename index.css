@@ -1,5 +1,6 @@
 body{
     background-color:#3D087B;
+    /* overflow-y: hidden; */
 
 }
 .clk{
@@ -166,14 +167,14 @@ body{
     background-image: linear-gradient(to left,#FC5EFF,#8A11BF);
 }
 .a2{
-    position: relative;
+    position: absolute;
     border: 3px solid #8A11BF;
     border-radius: 17px;
-    width: 400px;
-    height: 223px;
+    width: 305px;
+    height: 208px;
     background-color: #8A11BF;
-    top: 235px;
-    left: 106px;
+    top: 601px;
+    left: 136px;
     color: white;
     font-size: larger;
     text-align: center;
@@ -240,10 +241,11 @@ body{
 .five{
     border: 2px solid#EDEDED;
     background-color: white;
-    position: relative;
-    bottom: 295px;
+    position:absolute;
+    top: 200px;
     width: 475px;
     height: 401px;
+    z-index: 2;
     left: 611px;
     border-radius: 7px;
 }
@@ -383,9 +385,18 @@ body{
 
 
 
+.picnic2{
+    position: relative;
+    right: 2px;
+    top: 17px;
+    height: 343px;
+    width: 480px;
+}
 
-
-
+.whole{
+    position: relative;
+    
+}
 
 
 
