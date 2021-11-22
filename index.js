@@ -24,22 +24,24 @@ const timer=()=>{
 
   var d=document.getElementById("timings").value;
   var value1=d.slice(0,2);
-  console.log(value1);
-  console.log(hh);
-  var local=d.slice(-2);
+  var local=d.slice(3,5);
+ 
  
 
   var d1=document.getElementById("timings2").value;
   var value2=d1.slice(0,2);
   // console.log(value2);
-  var local2=d1.slice(-2);
+  var local2=d1.slice(3,5);
   // console.log(local2);
 
   var d2=document.getElementById("timings3").value;
   var value3=d2.slice(0,2);
-  var local3=d2.slice(-2);
+  var local3=d2.slice(3,5);
+  
   // console.log(value3);
-  // console.log(local3);  
+  // console.log(hh);
+  // console.log(local3); 
+  // console.log(x);
 
 
 if((value1==hh) && (local==x)){
@@ -119,6 +121,7 @@ function hii()
     }
     else{
       document.getElementById("a6").innerText="wake up time:"+d;
+      
     }
     
     if(d1=="")
