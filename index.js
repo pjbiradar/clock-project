@@ -23,7 +23,7 @@ const timer=()=>{
 }
 
 
-setTimeout(timer);
+setInterval(timer,1000);
 
 
 
@@ -88,9 +88,12 @@ function hii()
   {
     document.getElementById("a7").innerText="dinner time:"+d2;
   }
+
   let date=new Date();
   let hh=date.getHours();
+  // let hh=10;
   let x=hh>=12? 'PM' : 'AM';
+  // let x='AM';
   
   if(hh>=12){
     hh -= 12;
@@ -104,7 +107,7 @@ function hii()
 
   var d=document.getElementById("timings").value;
   var value1=d.slice(0,2);
-  var local=d.slice(2,4);
+  var local=d.slice(-2);
   // console.log(value1);
   // console.log(hh);
   console.log(local);
@@ -114,23 +117,32 @@ function hii()
   var d1=document.getElementById("timings2").value;
   var value2=d1.slice(0,2);
   // console.log(value2);
-  var local2=d1.slice(2,4);
+  var local2=d1.slice(-2);
   // console.log(local2);
 
   var d2=document.getElementById("timings3").value;
   var value3=d2.slice(0,2);
-  var local3=d2.slice(2,4);
+  var local3=d2.slice(-2);
   
   // console.log(value3);
   // console.log(hh);
-  // console.log(local3); 
-  // console.log(x);
+  console.log(local3); 
+  console.log(x);
 
   if((value1==hh) && (local==x)){
     var g=document.getElementById("picnic");
-    g.src="wakeup.png"
     var say=document.getElementById("five1")
     say.innerText="**lets have some breakfast **"
+    say.style.color="purple";
+    say.style.fontSize="30px";
+    say.style.top="1px";
+    g.src="wakeup.png"
+    // g.src.style.position="relative";
+    // g.src.style.left="30px";
+    // g.src.style.top="-100px";
+    // var say=document.getElementById("five1")
+    // say.innerText="**lets have some breakfast **"
+   
     say.appendChild(g);
   }
   else if((value2==hh) && (local2==x)){
@@ -138,6 +150,8 @@ function hii()
     r.src="lunch.png";
     var say1=document.getElementById("five1")
     say1.innerText="lets have some lunch!!"
+    say1.style.color="purple";
+    say1.style.fontSize="30px";
     say1.appendChild(r);
   }
   else if ((value3==hh) && (local3==x)){
@@ -145,6 +159,8 @@ function hii()
     e.src="night.png";
     var say2=document.getElementById("five1")
     say2.innerText="lets get some sleep!!!"
+    say2.style.color="hotpink";
+    say2.style.fontSize="30px";
     say2.appendChild(e);
   
   }
@@ -156,6 +172,8 @@ function hii()
     say3.style.fontSize="30px";
     say3.style.color="hotpink";
     say3.style.marginTop="10px";
+    say3.style.position="relative";
+    say3.style.right="3px";
     say3.appendChild(g3);
   }
     

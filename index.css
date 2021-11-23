@@ -381,24 +381,21 @@ body{
     bottom: 478px;
     font-size: 32px;
 }
-
-
-
-
 .picnic2{
     position: relative;
-    right: 2px;
-    top: 17px;
-    height: 343px;
-    width: 480px;
+    left: 10px;
+    height: 295px;
+    width: 460px;
 }
 
-.whole{
+
+/* 
+#five1{
+    color: hotpink;
+    font-size: xx-large;
     position: relative;
-    
-}
-
-
+    left: 60px;
+} */
 
 
 
